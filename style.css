@@ -1,0 +1,77 @@
+#game_tile{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-flow: column nowrap
+    
+}
+
+#game_field{
+    display: flex;
+    align-items:stretch;
+    flex-flow: row wrap;
+    width: 430px;
+    height: 430px;
+    
+}
+
+#score{
+    display: block;
+    font-size: 30px;
+
+}
+
+.tic{
+    display: block;
+    border: solid;
+    width: 140px;
+    height: 140px;
+    margin:1px;
+
+}
+
+.tic:before{
+    content:'X';
+    font-size: 100px;
+    display: block;
+    text-align: center;
+}
+
+.toe{
+    display: block;
+    border: solid;
+    width: 140px;
+    height: 140px;
+    margin:1px;
+
+}
+
+.toe:before{
+    content:'O';
+    font-size: 100px;
+    display: block;
+    
+    text-align: center;
+}
+
+.navigation {
+  display: flex;
+  list-style-type:none;
+  justify-content: flex-start;
+  border:groove;
+}
+
+.navigation a {
+ 
+  text-decoration:none;
+  display: block;
+  padding:10px;
+  color: black;  
+
+}
+
+.navigation a:hover {
+  background: #808080;
+}
+
+
