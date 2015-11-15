@@ -1,4 +1,4 @@
-﻿#game_field{
+﻿.game{
     display: flex;
     justify-content:space-around;
     flex-flow: row wrap;
@@ -10,14 +10,7 @@
     
 }
 
-#score{
-    display: flex;
-    justify-content: space-around;
-    font-size: 30px;
-
-}
-
-.sign{
+.game__sign{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,20 +21,7 @@
     
 }
 
-.navigation {
-    display: flex;
-    justify-content: flex-start;
-    border-bottom:solid;
-    list-style: none;
-}
-
-.navigation a {
-    display: block;
-    padding:10px;
-    text-decoration:none;
-    color: black;  
-}
-
-.navigation a:hover {
-    background: #808080;
+#score{
+    text-align: center;
+    font-size: 30px;
 }
